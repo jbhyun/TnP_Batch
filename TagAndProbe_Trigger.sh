@@ -16,7 +16,7 @@ export SCRAM_ARCH=slc6_amd64_gcc530
 cmsenv
 cd /data1/Users/jskim/cmssoftware/CMSSW_8_0_20/src/MuonAnalysis/TagAndProbe/test/zmumu/
 echo "#### running fitter ####"
-cmsRun fitMuonTrigger_trilepton.py \
+cmsRun fitMuonTrigger_dilepton.py \
 $filepath/$infile \
 $resultpath/$outfile \
 $PassingProbeTrigger \
