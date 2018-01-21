@@ -1,11 +1,8 @@
 #!/bin/bash
-qsub -q longq -N BCDEF_maketree -wd /data1/Users/jskim/TagAndProbe/logs/ maketree_BCDEF.sh
-qsub -q longq -N GH_maketree -wd /data1/Users/jskim/TagAndProbe/logs/ maketree_GH.sh
-qsub -q longq -N MC_maketree -wd /data1/Users/jskim/TagAndProbe/logs/ maketree_MC.sh
+#qsub -q fastq -N BCDEF_maketree -wd /data1/Users/jskim/TagAndProbe/logs/ maketree_BCDEF.sh
+#qsub -q fastq -N GH_maketree -wd /data1/Users/jskim/TagAndProbe/logs/ maketree_GH.sh
+#qsub -q fastq -N MC_maketree -wd /data1/Users/jskim/TagAndProbe/logs/ maketree_MC.sh
 
-
-
-
-
-
-
+qsub -q fastq -N BCDEF_maketree_DZFilter -wd /data1/Users/jskim/TagAndProbe/logs/ maketree_BCDEF_DZFilter.sh
+qsub -q fastq -N GH_maketree_DZFilter -wd /data1/Users/jskim/TagAndProbe/logs/ maketree_GH_DZFilter.sh
+qsub -q fastq -N MC_maketree_DZFilter -wd /data1/Users/jskim/TagAndProbe/logs/ maketree_MC_DZFilter.sh

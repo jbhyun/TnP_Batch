@@ -25,7 +25,7 @@ $TreeDir/SkimmedForDZFilter/TnPTree_Madgraph_Moriond17_dXYSIG_ADDED_WeightedBtoF
 $TreeDir/SkimmedForDZFilter/TnPTree_Madgraph_Moriond17_dXYSIG_ADDED_WeightedBtoF_WeightedGtoH_tag_dXYSIG_ADDED_Skimmed.root \
 --remove "*" \
 --keep "mass pair_probeMultiplicity pair_deltaR Tight2012 tag_dzPV dzPV tag_combRelIsoPF04dBeta combRelIsoPF04dBeta tag_dB dB tag_dXYSig dXYSig tag_pt pt tag_abseta abseta tag_eta eta tag_phi phi tag_DoubleIsoMu17Mu8_IsoMu17leg tag_DoubleIsoMu17Mu8dZ_Mu17leg tag_DoubleIsoMu17Mu8_IsoMu8leg tag_DoubleIsoMu17TkMu8_IsoMu8leg DoubleIsoMu17Mu8_IsoMu17leg DoubleIsoMu17Mu8dZ_Mu17leg DoubleIsoMu17Mu8_IsoMu8leg DoubleIsoMu17TkMu8_IsoMu8leg weight_BtoF weight_GtoH" \
---cut "pair_probeMultiplicity == 1 && tag_dzPV > -0.5 && tag_dzPV < 0.5 && tag_combRelIsoPF04dBeta < 0.1 && tag_dB < 0.05 && tag_dXYSig < 3.0 && Tight2012 && dzPV > -0.5 && dzPV < 0.5 && combRelIsoPF04dBeta < 0.1 && dB < 0.05 && dXYSig < 3.0 && tag_pt > 9.9999 && pt > 9.9999"
+--cut "pair_probeMultiplicity == 1 && pair_deltaR > 0.3 && tag_dzPV > -0.04 && tag_dzPV < 0.04 && tag_combRelIsoPF04dBeta < 0.07 && tag_dB < 0.005 && tag_dXYSig < 3.0 && Tight2012 && dzPV > -0.04 && dzPV < 0.04 && combRelIsoPF04dBeta < 0.07 && dB < 0.005 && dXYSig < 3.0 && tag_pt > 9.9999 && pt > 9.9999"
 echo "Skimming done"
 
 echo ""
