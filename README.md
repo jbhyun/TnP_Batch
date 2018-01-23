@@ -9,7 +9,8 @@ Tree Maker & TnP Fitter for Muon TnP
 * maketree_MC.sh
   * script for MC
 ### Submit batch job
-```source submit_maketree.sh
+```bash
+source submit_maketree.sh
 ```
 
 # TnP Fitter
@@ -18,5 +19,6 @@ Tree Maker & TnP Fitter for Muon TnP
 ### Submit batch job
 * Modify TagAndProbe_Trigger.sh
 * To submit batch,
-```python submit_Trigger.py
+```bash
+python submit_Trigger.py
 ```
